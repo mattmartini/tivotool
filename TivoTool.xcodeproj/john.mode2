@@ -234,48 +234,7 @@
 		</dict>
 	</array>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>521A1A400AA3DA9B00EE7A48</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>StreamDialog.pm</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>521A1A410AA3DA9B00EE7A48</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>StreamDialog.pm</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>527212360AA413DC00CC734D</string>
-						<key>history</key>
-						<array>
-							<string>521A1A830AA40CED00EE7A48</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {910, 855}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>261 106 910 896 0 0 1280 1002 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -303,7 +262,7 @@
 			<array>
 				<dict>
 					<key>Proportion</key>
-					<string>236pt</string>
+					<string>273pt</string>
 					<key>Tabs</key>
 					<array>
 						<dict>
@@ -323,7 +282,7 @@
 								<dict>
 									<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 									<array>
-										<real>219</real>
+										<real>256</real>
 									</array>
 									<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 									<array>
@@ -348,7 +307,7 @@
 										</array>
 									</array>
 									<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-									<string>{{0, 70}, {219, 610}}</string>
+									<string>{{0, 70}, {256, 644}}</string>
 								</dict>
 								<key>PBXTopSmartGroupGIDs</key>
 								<array/>
@@ -358,14 +317,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{10, 27}, {236, 628}}</string>
+								<string>{{10, 27}, {273, 662}}</string>
 								<key>GroupTreeTableConfiguration</key>
 								<array>
 									<string>MainColumn</string>
-									<real>219</real>
+									<real>256</real>
 								</array>
 								<key>RubberWindowFrame</key>
-								<string>12 306 236 696 0 0 1280 1002 </string>
+								<string>12 272 273 730 0 0 1280 1002 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXSmartGroupTreeModule</string>
@@ -502,8 +461,8 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>527212200AA40D2900CC734D</string>
-				<string>527212210AA40D2900CC734D</string>
+				<string>52F902DC0AAFFFB7005490FC</string>
+				<string>52F902DD0AAFFFB7005490FC</string>
 				<string>1C9437FD063B20B00039CFAC</string>
 				<string>1C9437FE063B20B00039CFAC</string>
 				<string>1C9437FF063B20B00039CFAC</string>
@@ -521,7 +480,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>178525148.75391901</real>
+	<real>179306400.37427899</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -536,15 +495,11 @@
 	<integer>0</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D52069F1CE1000CFCEE</string>
-		<string>1C530D54069F1CE1000CFCEE</string>
-		<string>5272121C0AA40D1C00CC734D</string>
 		<string>1C0AD2B3069F1EA900FABCE6</string>
-		<string>521A1A400AA3DA9B00EE7A48</string>
-		<string>/Users/john/Code/TivoTool/TivoTool.xcodeproj</string>
+		<string>/Users/john/Desktop/Checkout/tivotool/TivoTool.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>12 306 236 696 0 0 1280 1002 </string>
+	<string>12 272 273 730 0 0 1280 1002 </string>
 	<key>WindowTools</key>
 	<array>
 		<dict>
@@ -1097,7 +1052,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {463, 159}}</string>
 								<key>RubberWindowFrame</key>
-								<string>50 124 463 200 0 0 1280 1002 </string>
+								<string>23 101 463 200 0 0 1280 1002 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXRunSessionModule</string>
@@ -1120,14 +1075,14 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C0AD2B3069F1EA900FABCE6</string>
-				<string>5272121D0AA40D1C00CC734D</string>
+				<string>52F902DE0AAFFFB7005490FC</string>
 				<string>1CD0528B0623707200166675</string>
-				<string>5272121E0AA40D1C00CC734D</string>
+				<string>52F902DF0AAFFFB7005490FC</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.run</string>
 			<key>WindowString</key>
-			<string>50 124 463 200 0 0 1280 1002 </string>
+			<string>23 101 463 200 0 0 1280 1002 </string>
 			<key>WindowToolGUID</key>
 			<string>1C0AD2B3069F1EA900FABCE6</string>
 			<key>WindowToolIsVisible</key>
