@@ -1,0 +1,1043 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {790, 581}}";
+			sepNavSelRange = "{157, 0}";
+			sepNavVisRect = "{{0, 0}, {790, 581}}";
+			sepNavWindowFrame = "{{15, 43}, {777, 698}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeExecutable = 520E02CB087D354000A8B652 /* TivoTool */;
+		activeTarget = 8D1107260486CEB800E47090 /* TivoTool */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* TivoTool */,
+		);
+		breakpointsGroup = 524FB54C08A0C9AF00B8C7FF /* XCBreakpointsBucket */;
+		codeSenseManager = 520E02DF087D355B00A8B652 /* Code sense */;
+		executables = (
+			520E02CB087D354000A8B652 /* TivoTool */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					300,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					474,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					443,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					120,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					200,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					795,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					10,
+					20,
+					43,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 179302885;
+			PBXWorkspaceStateSaveDate = 179302885;
+		};
+		perUserProjectItems = {
+			524EFFBF0AA924C700B54503 /* PBXTextBookmark */ = 524EFFBF0AA924C700B54503 /* PBXTextBookmark */;
+			524EFFC20AA924C700B54503 /* PBXTextBookmark */ = 524EFFC20AA924C700B54503 /* PBXTextBookmark */;
+			52634E820AA6759A005C09E0 /* PBXTextBookmark */ = 52634E820AA6759A005C09E0 /* PBXTextBookmark */;
+			527212B10AA4194800CC734D /* PBXTextBookmark */ = 527212B10AA4194800CC734D /* PBXTextBookmark */;
+			527212B30AA4194800CC734D /* PBXTextBookmark */ = 527212B30AA4194800CC734D /* PBXTextBookmark */;
+			527212B60AA4194800CC734D /* PBXTextBookmark */ = 527212B60AA4194800CC734D /* PBXTextBookmark */;
+			527212DF0AA41D7B00CC734D /* PBXTextBookmark */ = 527212DF0AA41D7B00CC734D /* PBXTextBookmark */;
+			527212E30AA41D7B00CC734D /* PBXTextBookmark */ = 527212E30AA41D7B00CC734D /* PBXTextBookmark */;
+			527212E50AA41D7B00CC734D /* PBXTextBookmark */ = 527212E50AA41D7B00CC734D /* PBXTextBookmark */;
+			527212E60AA41D7B00CC734D /* PBXTextBookmark */ = 527212E60AA41D7B00CC734D /* PBXTextBookmark */;
+			527212E70AA41D7B00CC734D /* PBXTextBookmark */ = 527212E70AA41D7B00CC734D /* PBXTextBookmark */;
+			527213E90AA42A2700CC734D /* PBXTextBookmark */ = 527213E90AA42A2700CC734D /* PBXTextBookmark */;
+			5272151F0AA51DF300CC734D /* PBXTextBookmark */ = 5272151F0AA51DF300CC734D /* PBXTextBookmark */;
+			527215200AA51DF300CC734D /* PBXTextBookmark */ = 527215200AA51DF300CC734D /* PBXTextBookmark */;
+			527215220AA51DF300CC734D /* PBXTextBookmark */ = 527215220AA51DF300CC734D /* PBXTextBookmark */;
+			527215260AA51DF300CC734D /* PBXTextBookmark */ = 527215260AA51DF300CC734D /* PBXTextBookmark */;
+			527215280AA51DF300CC734D /* PBXTextBookmark */ = 527215280AA51DF300CC734D /* PBXTextBookmark */;
+			527215290AA51DF300CC734D /* PBXTextBookmark */ = 527215290AA51DF300CC734D /* PBXTextBookmark */;
+			5272152A0AA51DF300CC734D /* PBXTextBookmark */ = 5272152A0AA51DF300CC734D /* PBXTextBookmark */;
+			5272154D0AA541C900CC734D /* PBXTextBookmark */ = 5272154D0AA541C900CC734D /* PBXTextBookmark */;
+			5272162E0AA5644300CC734D /* PBXTextBookmark */ = 5272162E0AA5644300CC734D /* PBXTextBookmark */;
+			5272163A0AA564D200CC734D /* PBXTextBookmark */ = 5272163A0AA564D200CC734D /* PBXTextBookmark */;
+			527217440AA56E5900CC734D /* PBXTextBookmark */ = 527217440AA56E5900CC734D /* PBXTextBookmark */;
+			527217470AA56E5900CC734D /* PBXTextBookmark */ = 527217470AA56E5900CC734D /* PBXTextBookmark */;
+			527217700AA571B100CC734D /* PBXTextBookmark */ = 527217700AA571B100CC734D /* PBXTextBookmark */;
+			5282956D0AAFF1FE003E1855 /* PBXTextBookmark */ = 5282956D0AAFF1FE003E1855 /* PBXTextBookmark */;
+			528479FC0AA6BE19003D9F4C /* PBXTextBookmark */ = 528479FC0AA6BE19003D9F4C /* PBXTextBookmark */;
+			52847A290AA6D40F003D9F4C /* PBXTextBookmark */ = 52847A290AA6D40F003D9F4C /* PBXTextBookmark */;
+			52847A2C0AA6D40F003D9F4C /* PBXTextBookmark */ = 52847A2C0AA6D40F003D9F4C /* PBXTextBookmark */;
+			52847A300AA6D40F003D9F4C /* PBXTextBookmark */ = 52847A300AA6D40F003D9F4C /* PBXTextBookmark */;
+			52847A3F0AA6D43E003D9F4C /* PBXTextBookmark */ = 52847A3F0AA6D43E003D9F4C /* PBXTextBookmark */;
+			52847A430AA6D43E003D9F4C /* PBXTextBookmark */ = 52847A430AA6D43E003D9F4C /* PBXTextBookmark */;
+			52847A470AA6D43E003D9F4C /* PBXBookmark */ = 52847A470AA6D43E003D9F4C /* PBXBookmark */;
+			52847A4E0AA6D43E003D9F4C /* PBXTextBookmark */ = 52847A4E0AA6D43E003D9F4C /* PBXTextBookmark */;
+			52847A500AA6D43E003D9F4C /* PBXTextBookmark */ = 52847A500AA6D43E003D9F4C /* PBXTextBookmark */;
+			52847A520AA6D43E003D9F4C /* PBXTextBookmark */ = 52847A520AA6D43E003D9F4C /* PBXTextBookmark */;
+			52847A540AA6D43E003D9F4C /* PBXTextBookmark */ = 52847A540AA6D43E003D9F4C /* PBXTextBookmark */;
+			52847A560AA6D43E003D9F4C /* PBXBookmark */ = 52847A560AA6D43E003D9F4C /* PBXBookmark */;
+			52847A610AA6D45E003D9F4C /* PBXTextBookmark */ = 52847A610AA6D45E003D9F4C /* PBXTextBookmark */;
+			52847A690AA6D490003D9F4C /* PBXTextBookmark */ = 52847A690AA6D490003D9F4C /* PBXTextBookmark */;
+			52847A6B0AA6D490003D9F4C /* PBXTextBookmark */ = 52847A6B0AA6D490003D9F4C /* PBXTextBookmark */;
+			52847A800AA6D4E7003D9F4C /* PBXTextBookmark */ = 52847A800AA6D4E7003D9F4C /* PBXTextBookmark */;
+			52847A820AA6D4E7003D9F4C /* PBXTextBookmark */ = 52847A820AA6D4E7003D9F4C /* PBXTextBookmark */;
+			52847AA70AA6D916003D9F4C /* PBXTextBookmark */ = 52847AA70AA6D916003D9F4C /* PBXTextBookmark */;
+			52847AA80AA6D916003D9F4C /* PBXTextBookmark */ = 52847AA80AA6D916003D9F4C /* PBXTextBookmark */;
+			52847AA90AA6D916003D9F4C /* PBXTextBookmark */ = 52847AA90AA6D916003D9F4C /* PBXTextBookmark */;
+			52847B2D0AA6E256003D9F4C /* PBXTextBookmark */ = 52847B2D0AA6E256003D9F4C /* PBXTextBookmark */;
+			52847B3F0AA6E38B003D9F4C /* PBXTextBookmark */ = 52847B3F0AA6E38B003D9F4C /* PBXTextBookmark */;
+			52847B480AA6E4C0003D9F4C /* PBXTextBookmark */ = 52847B480AA6E4C0003D9F4C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 520E02DE087D355B00A8B652 /* Source Control */;
+		userBookmarkGroup = 52A4471A0A9906B500095ED1 /* PBXBookmarkGroup */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {755, 630}}";
+			sepNavSelRange = "{128, 0}";
+			sepNavVisRect = "{{0, 0}, {755, 630}}";
+			sepNavWindowFrame = "{{15, 24}, {800, 759}}";
+		};
+	};
+	520E02CB087D354000A8B652 /* TivoTool */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TivoTool;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	520E02DE087D355B00A8B652 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	520E02DF087D355B00A8B652 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	524374D408931D92006AAA88 /* DNS.pm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {959, 12124}}";
+			sepNavSelRange = "{233, 0}";
+			sepNavVisRect = "{{0, 997}, {959, 638}}";
+		};
+	};
+	524374E108931E2D006AAA88 /* AppConfig.pm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {789, 14770}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {789, 462}}";
+		};
+	};
+	524EFFBF0AA924C700B54503 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52F72D610A45388D002822E5 /* TTPrefs.pm */;
+		name = "TTPrefs.pm: 295";
+		rLen = 0;
+		rLoc = 10211;
+		rType = 0;
+		vrLen = 2183;
+		vrLoc = 9992;
+	};
+	524EFFC20AA924C700B54503 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AA254AF405B66F05003DBAE8 /* main.pl */;
+		name = "main.pl: 36";
+		rLen = 77;
+		rLoc = 886;
+		rType = 0;
+		vrLen = 693;
+		vrLoc = 484;
+	};
+	524FB54C08A0C9AF00B8C7FF /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+		);
+	};
+	526063450A5A634D00DF940D /* daemon.pl */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {968, 2604}}";
+			sepNavSelRange = "{221, 0}";
+			sepNavVisRect = "{{0, 0}, {968, 354}}";
+		};
+	};
+	52634E820AA6759A005C09E0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52F72D610A45388D002822E5 /* TTPrefs.pm */;
+		name = _crop;
+		rLen = 5;
+		rLoc = 27048;
+		rType = 0;
+		vrLen = 2080;
+		vrLoc = 26094;
+	};
+	527212370AA413DC00CC734D /* StreamDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = StreamDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/StreamDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	527212AE0AA4194800CC734D /* MplexMuxDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = MplexMuxDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/MplexMuxDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	527212B10AA4194800CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527212B20AA4194800CC734D /* MplexMuxDialog.pm */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1407;
+		vrLoc = 0;
+	};
+	527212B20AA4194800CC734D /* MplexMuxDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = MplexMuxDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/MplexMuxDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	527212B30AA4194800CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527212370AA413DC00CC734D /* StreamDialog.pm */;
+		name = "StreamDialog.pm: 56";
+		rLen = 0;
+		rLoc = 2712;
+		rType = 0;
+		vrLen = 1382;
+		vrLoc = 0;
+	};
+	527212B60AA4194800CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 524374E108931E2D006AAA88 /* AppConfig.pm */;
+		name = "AppConfig.pm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1473;
+		vrLoc = 0;
+	};
+	527212DE0AA41D7B00CC734D /* FFAudioConvertDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = FFAudioConvertDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/FFAudioConvertDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	527212DF0AA41D7B00CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB109C0A21A183006393C2 /* Inspector.pm */;
+		name = Duration;
+		rLen = 8;
+		rLoc = 3036;
+		rType = 0;
+		vrLen = 2236;
+		vrLoc = 2020;
+	};
+	527212E30AA41D7B00CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527212E40AA41D7B00CC734D /* FFAudioConvertDialog.pm */;
+		name = duration;
+		rLen = 8;
+		rLoc = 3067;
+		rType = 0;
+		vrLen = 847;
+		vrLoc = 2717;
+	};
+	527212E40AA41D7B00CC734D /* FFAudioConvertDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = FFAudioConvertDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/FFAudioConvertDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	527212E50AA41D7B00CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB109B0A21A183006393C2 /* Recording.pm */;
+		name = "Recording.pm: 102";
+		rLen = 0;
+		rLoc = 2624;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 1758;
+	};
+	527212E60AA41D7B00CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB10A40A21A18B006393C2 /* Frame.pm */;
+		name = "Frame.pm: 384";
+		rLen = 0;
+		rLoc = 10401;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 9960;
+	};
+	527212E70AA41D7B00CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB109C0A21A183006393C2 /* Inspector.pm */;
+		name = Duration;
+		rLen = 8;
+		rLoc = 3036;
+		rType = 0;
+		vrLen = 2236;
+		vrLoc = 2020;
+	};
+	527213E60AA42A2700CC734D /* TivoServerDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = TivoServerDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/TivoServerDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	527213E90AA42A2700CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527213EA0AA42A2700CC734D /* TivoServerDialog.pm */;
+		name = wxDEFAULT_FRAME_STYLE;
+		rLen = 21;
+		rLoc = 1623;
+		rType = 0;
+		vrLen = 1895;
+		vrLoc = 722;
+	};
+	527213EA0AA42A2700CC734D /* TivoServerDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = TivoServerDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/TivoServerDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	527213F30AA42A7200CC734D /* StreamDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = StreamDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/StreamDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	5272151F0AA51DF300CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 524374E108931E2D006AAA88 /* AppConfig.pm */;
+		name = "AppConfig.pm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 919;
+		vrLoc = 0;
+	};
+	527215200AA51DF300CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52FCC10B0A9412E100C67C51 /* Expect.pm */;
+		name = "Expect.pm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	527215220AA51DF300CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 526063450A5A634D00DF940D /* daemon.pl */;
+		name = print;
+		rLen = 5;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 831;
+		vrLoc = 0;
+	};
+	527215260AA51DF300CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB10970A21A183006393C2 /* TTConfig.pm */;
+		name = "TTConfig.pm: 22";
+		rLen = 0;
+		rLoc = 787;
+		rType = 0;
+		vrLen = 1237;
+		vrLoc = 2508;
+	};
+	527215280AA51DF300CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52FCC10B0A9412E100C67C51 /* Expect.pm */;
+		name = "Expect.pm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	527215290AA51DF300CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AA254AF405B66F05003DBAE8 /* main.pl */;
+		name = "main.pl: 39";
+		rLen = 0;
+		rLoc = 920;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 526;
+	};
+	5272152A0AA51DF300CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 526063450A5A634D00DF940D /* daemon.pl */;
+		name = print;
+		rLen = 5;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 831;
+		vrLoc = 0;
+	};
+	527215490AA541C900CC734D /* vSplitDownloadDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = vSplitDownloadDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/vSplitDownloadDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	5272154D0AA541C900CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5272154E0AA541C900CC734D /* vSplitDownloadDialog.pm */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 793;
+		vrLoc = 0;
+	};
+	5272154E0AA541C900CC734D /* vSplitDownloadDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = vSplitDownloadDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/vSplitDownloadDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	5272162E0AA5644300CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5272162F0AA5644300CC734D /* MencoderDownloadDialog.pm */;
+		name = "my $cmd = $con->build_avicommand($rec);";
+		rLen = 42;
+		rLoc = 3942;
+		rType = 0;
+		vrLen = 1418;
+		vrLoc = 3393;
+	};
+	5272162F0AA5644300CC734D /* MencoderDownloadDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = MencoderDownloadDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/MencoderDownloadDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	5272163A0AA564D200CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527212AE0AA4194800CC734D /* MplexMuxDialog.pm */;
+		name = "MplexMuxDialog.pm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1407;
+		vrLoc = 0;
+	};
+	527217440AA56E5900CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527215490AA541C900CC734D /* vSplitDownloadDialog.pm */;
+		name = "vSplitDownloadDialog.pm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1833;
+		vrLoc = 292;
+	};
+	527217470AA56E5900CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB10A30A21A18B006393C2 /* CommandLineController.pm */;
+		name = "CommandLineController.pm: 321";
+		rLen = 0;
+		rLoc = 9669;
+		rType = 0;
+		vrLen = 1565;
+		vrLoc = 8817;
+	};
+	527217700AA571B100CC734D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527213E60AA42A2700CC734D /* TivoServerDialog.pm */;
+		name = "TivoServerDialog.pm: 30";
+		rLen = 509;
+		rLoc = 935;
+		rType = 0;
+		vrLen = 1759;
+		vrLoc = 0;
+	};
+	5282956D0AAFF1FE003E1855 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AA254AF405B66F05003DBAE8 /* main.pl */;
+		name = "main.pl: 36";
+		rLen = 77;
+		rLoc = 886;
+		rType = 0;
+		vrLen = 1112;
+		vrLoc = 105;
+	};
+	528479FC0AA6BE19003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB10970A21A183006393C2 /* TTConfig.pm */;
+		name = "TTConfig.pm: 54";
+		rLen = 0;
+		rLoc = 2446;
+		rType = 0;
+		vrLen = 2292;
+		vrLoc = 1277;
+	};
+	52847A290AA6D40F003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB10980A21A183006393C2 /* RefreshController.pm */;
+		name = $host;
+		rLen = 5;
+		rLoc = 590;
+		rType = 0;
+		vrLen = 667;
+		vrLoc = 331;
+	};
+	52847A2C0AA6D40F003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB10990A21A183006393C2 /* TivoUnit.pm */;
+		name = "TivoUnit.pm: 16";
+		rLen = 0;
+		rLoc = 222;
+		rType = 0;
+		vrLen = 345;
+		vrLoc = 50;
+	};
+	52847A300AA6D40F003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB10980A21A183006393C2 /* RefreshController.pm */;
+		name = $host;
+		rLen = 5;
+		rLoc = 423;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 331;
+	};
+	52847A3F0AA6D43E003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52847A400AA6D43E003D9F4C /* FFDownloadDialog.pm */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1915;
+		vrLoc = 0;
+	};
+	52847A400AA6D43E003D9F4C /* FFDownloadDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = FFDownloadDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/FFDownloadDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	52847A420AA6D43E003D9F4C /* HdemuxDownloadDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = HdemuxDownloadDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/HdemuxDownloadDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	52847A430AA6D43E003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52847A440AA6D43E003D9F4C /* MFSExportDownloadDialog.pm */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2021;
+		vrLoc = 0;
+	};
+	52847A440AA6D43E003D9F4C /* MFSExportDownloadDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = MFSExportDownloadDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/MFSExportDownloadDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	52847A470AA6D43E003D9F4C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 52847A480AA6D43E003D9F4C /* MyBitmapsFunc_0.png */;
+	};
+	52847A480AA6D43E003D9F4C /* MyBitmapsFunc_0.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = MyBitmapsFunc_0.png;
+		path = /Users/john/Code/TivoTool/Dialogs/MyBitmapsFunc_0.png;
+		sourceTree = "<absolute>";
+	};
+	52847A4E0AA6D43E003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52847A4F0AA6D43E003D9F4C /* FFDownloadDialog.pm */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1915;
+		vrLoc = 0;
+	};
+	52847A4F0AA6D43E003D9F4C /* FFDownloadDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = FFDownloadDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/FFDownloadDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	52847A500AA6D43E003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52847A510AA6D43E003D9F4C /* HdemuxDownloadDialog.pm */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1573;
+		vrLoc = 0;
+	};
+	52847A510AA6D43E003D9F4C /* HdemuxDownloadDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = HdemuxDownloadDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/HdemuxDownloadDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	52847A520AA6D43E003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52847A530AA6D43E003D9F4C /* MFSExportDownloadDialog.pm */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2021;
+		vrLoc = 0;
+	};
+	52847A530AA6D43E003D9F4C /* MFSExportDownloadDialog.pm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.perl;
+		name = MFSExportDownloadDialog.pm;
+		path = /Users/john/Code/TivoTool/Dialogs/MFSExportDownloadDialog.pm;
+		sourceTree = "<absolute>";
+	};
+	52847A540AA6D43E003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5272162F0AA5644300CC734D /* MencoderDownloadDialog.pm */;
+		name = "my $cmd = $con->build_avicommand($rec);";
+		rLen = 42;
+		rLoc = 3942;
+		rType = 0;
+		vrLen = 2060;
+		vrLoc = 0;
+	};
+	52847A560AA6D43E003D9F4C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 52847A570AA6D43E003D9F4C /* MyBitmapsFunc_0.png */;
+	};
+	52847A570AA6D43E003D9F4C /* MyBitmapsFunc_0.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = MyBitmapsFunc_0.png;
+		path = /Users/john/Code/TivoTool/Dialogs/MyBitmapsFunc_0.png;
+		sourceTree = "<absolute>";
+	};
+	52847A610AA6D45E003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527212DE0AA41D7B00CC734D /* FFAudioConvertDialog.pm */;
+		name = duration;
+		rLen = 8;
+		rLoc = 3067;
+		rType = 0;
+		vrLen = 1846;
+		vrLoc = 0;
+	};
+	52847A690AA6D490003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB109A0A21A183006393C2 /* TTListCtrl.pm */;
+		name = "TTListCtrl.pm: 26";
+		rLen = 0;
+		rLoc = 1060;
+		rType = 0;
+		vrLen = 1991;
+		vrLoc = 0;
+	};
+	52847A6B0AA6D490003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB109A0A21A183006393C2 /* TTListCtrl.pm */;
+		name = "TTListCtrl.pm: 26";
+		rLen = 0;
+		rLoc = 1060;
+		rType = 0;
+		vrLen = 1991;
+		vrLoc = 0;
+	};
+	52847A800AA6D4E7003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 524374D408931D92006AAA88 /* DNS.pm */;
+		name = "DNS.pm: 16";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 2214;
+		vrLoc = 1224;
+	};
+	52847A820AA6D4E7003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 524374D408931D92006AAA88 /* DNS.pm */;
+		name = "DNS.pm: 16";
+		rLen = 0;
+		rLoc = 233;
+		rType = 0;
+		vrLen = 2214;
+		vrLoc = 1224;
+	};
+	52847AA70AA6D916003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB10990A21A183006393C2 /* TivoUnit.pm */;
+		name = host;
+		rLen = 4;
+		rLoc = 1233;
+		rType = 0;
+		vrLen = 922;
+		vrLoc = 562;
+	};
+	52847AA80AA6D916003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52847A420AA6D43E003D9F4C /* HdemuxDownloadDialog.pm */;
+		name = "HdemuxDownloadDialog.pm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1203;
+		vrLoc = 433;
+	};
+	52847AA90AA6D916003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB109B0A21A183006393C2 /* Recording.pm */;
+		name = "Recording.pm: 298";
+		rLen = 0;
+		rLoc = 6815;
+		rType = 0;
+		vrLen = 712;
+		vrLoc = 6814;
+	};
+	52847B2D0AA6E256003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB10A40A21A18B006393C2 /* Frame.pm */;
+		name = "Frame.pm: 643";
+		rLen = 0;
+		rLoc = 20115;
+		rType = 0;
+		vrLen = 1885;
+		vrLoc = 18998;
+	};
+	52847B3F0AA6E38B003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52BB10A30A21A18B006393C2 /* CommandLineController.pm */;
+		name = "CommandLineController.pm: 255";
+		rLen = 0;
+		rLoc = 7434;
+		rType = 0;
+		vrLen = 1646;
+		vrLoc = 6463;
+	};
+	52847B480AA6E4C0003D9F4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 527213F30AA42A7200CC734D /* StreamDialog.pm */;
+		name = "StreamDialog.pm: 43";
+		rLen = 0;
+		rLoc = 1020;
+		rType = 0;
+		vrLen = 1228;
+		vrLoc = 278;
+	};
+	52A4471A0A9906B500095ED1 /* PBXBookmarkGroup */ = {
+		isa = PBXBookmarkGroup;
+		children = (
+			52A4480F0A990B4800095ED1 /* PBXTextBookmark */,
+		);
+		name = Root;
+	};
+	52A4480F0A990B4800095ED1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 52F72D610A45388D002822E5 /* TTPrefs.pm */;
+		name = stream_as;
+		rLen = 0;
+		rLoc = 11934;
+		rType = 0;
+		vrLen = 2345;
+		vrLoc = 11160;
+	};
+	52BB10970A21A183006393C2 /* TTConfig.pm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {959, 1442}}";
+			sepNavSelRange = "{2446, 0}";
+			sepNavVisRect = "{{0, 389}, {959, 720}}";
+			sepNavWindowFrame = "{{231, 218}, {941, 701}}";
+		};
+	};
+	52BB10980A21A183006393C2 /* RefreshController.pm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {968, 1316}}";
+			sepNavSelRange = "{590, 5}";
+			sepNavVisRect = "{{0, 306}, {968, 354}}";
+			sepNavWindowFrame = "{{61, 130}, {659, 569}}";
+		};
+	};
+	52BB10990A21A183006393C2 /* TivoUnit.pm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {959, 2632}}";
+			sepNavSelRange = "{1233, 4}";
+			sepNavVisRect = "{{0, 570}, {959, 638}}";
+			sepNavWindowFrame = "{{293, 168}, {600, 578}}";
+		};
+	};
+	52BB109A0A21A183006393C2 /* TTListCtrl.pm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {968, 1246}}";
+			sepNavSelRange = "{1060, 0}";
+			sepNavVisRect = "{{0, 0}, {968, 824}}";
+			sepNavWindowFrame = "{{15, 294}, {892, 703}}";
+		};
+	};
+	52BB109B0A21A183006393C2 /* Recording.pm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 6202}}";
+			sepNavSelRange = "{6815, 0}";
+			sepNavVisRect = "{{0, 4158}, {1067, 638}}";
+			sepNavWindowFrame = "{{103, 77}, {837, 696}}";
+		};
+	};
+	52BB109C0A21A183006393C2 /* Inspector.pm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {818, 2870}}";
+			sepNavSelRange = "{3036, 8}";
+			sepNavVisRect = "{{0, 735}, {797, 505}}";
+		};
+	};
+	52BB10A30A21A18B006393C2 /* CommandLineController.pm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 5194}}";
+			sepNavSelRange = "{7434, 0}";
+			sepNavVisRect = "{{0, 3189}, {1067, 638}}";
+			sepNavWindowFrame = "{{272, 102}, {896, 696}}";
+		};
+	};
+	52BB10A40A21A18B006393C2 /* Frame.pm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3494, 9688}}";
+			sepNavSelRange = "{20115, 0}";
+			sepNavVisRect = "{{0, 8666}, {1067, 638}}";
+			sepNavWindowFrame = "{{164, 77}, {871, 696}}";
+		};
+	};
+	52D61FC208838323009CEBE6 /* bob.icns */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 161}, {790, 580}}";
+		};
+	};
+	52F72D610A45388D002822E5 /* TTPrefs.pm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2744, 8568}}";
+			sepNavSelRange = "{10211, 0}";
+			sepNavVisRect = "{{0, 4052}, {916, 638}}";
+			sepNavWindowFrame = "{{267, 276}, {941, 701}}";
+		};
+	};
+	52FCC10B0A9412E100C67C51 /* Expect.pm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1130, 22358}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {789, 462}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* TivoTool */ = {
+		activeExec = 0;
+		executables = (
+			520E02CB087D354000A8B652 /* TivoTool */,
+		);
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {977, 378}}";
+			sepNavSelRange = "{639, 0}";
+			sepNavVisRect = "{{0, 0}, {977, 283}}";
+			sepNavWindowFrame = "{{15, 43}, {777, 698}}";
+		};
+	};
+	AA254AF405B66F05003DBAE8 /* main.pl */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {916, 812}}";
+			sepNavSelRange = "{886, 77}";
+			sepNavVisRect = "{{0, 174}, {916, 638}}";
+			sepNavWindowFrame = "{{309, 311}, {659, 569}}";
+		};
+	};
+}
