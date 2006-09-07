@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520493530A957B85000EEBB1 /* auto in Resources */ = {isa = PBXBuildFile; fileRef = 5204934B0A957B85000EEBB1 /* auto */; };
+		522C4D6308976083009630E6 /* Net in Resources */ = {isa = PBXBuildFile; fileRef = 522C4D2608976083009630E6 /* Net */; };
+		524374D708931D92006AAA88 /* DNS.pm in Resources */ = {isa = PBXBuildFile; fileRef = 524374D408931D92006AAA88 /* DNS.pm */; };
+		524374D808931D92006AAA88 /* Rendezvous.pm in Resources */ = {isa = PBXBuildFile; fileRef = 524374D508931D92006AAA88 /* Rendezvous.pm */; };
+		524374E208931E2D006AAA88 /* AppConfig in Resources */ = {isa = PBXBuildFile; fileRef = 524374D908931E2D006AAA88 /* AppConfig */; };
+		524374E308931E2D006AAA88 /* AppConfig.pm in Resources */ = {isa = PBXBuildFile; fileRef = 524374E108931E2D006AAA88 /* AppConfig.pm */; };
+		526063460A5A634D00DF940D /* daemon.pl in Resources */ = {isa = PBXBuildFile; fileRef = 526063450A5A634D00DF940D /* daemon.pl */; };
+		526063DF0A5A6C1700DF940D /* light-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 526063DD0A5A6C1700DF940D /* light-off.png */; };
+		526063E00A5A6C1700DF940D /* light-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 526063DE0A5A6C1700DF940D /* light-on.png */; };
+		5284B08E0A303A54007199C8 /* go-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 5284B08D0A303A54007199C8 /* go-down.png */; };
+		52BB10910A21A173006393C2 /* ico2.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BB108B0A21A173006393C2 /* ico2.png */; };
+		52BB10920A21A173006393C2 /* ico5.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BB108C0A21A173006393C2 /* ico5.png */; };
+		52BB10930A21A173006393C2 /* ico4.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BB108D0A21A173006393C2 /* ico4.png */; };
+		52BB10940A21A173006393C2 /* ico3.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BB108E0A21A173006393C2 /* ico3.png */; };
+		52BB10950A21A173006393C2 /* ico0.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BB108F0A21A173006393C2 /* ico0.png */; };
+		52BB10960A21A173006393C2 /* ico1.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BB10900A21A173006393C2 /* ico1.png */; };
+		52BB109D0A21A183006393C2 /* TTConfig.pm in Resources */ = {isa = PBXBuildFile; fileRef = 52BB10970A21A183006393C2 /* TTConfig.pm */; };
+		52BB109E0A21A183006393C2 /* RefreshController.pm in Resources */ = {isa = PBXBuildFile; fileRef = 52BB10980A21A183006393C2 /* RefreshController.pm */; };
+		52BB109F0A21A183006393C2 /* TivoUnit.pm in Resources */ = {isa = PBXBuildFile; fileRef = 52BB10990A21A183006393C2 /* TivoUnit.pm */; };
+		52BB10A00A21A183006393C2 /* TTListCtrl.pm in Resources */ = {isa = PBXBuildFile; fileRef = 52BB109A0A21A183006393C2 /* TTListCtrl.pm */; };
+		52BB10A10A21A183006393C2 /* Recording.pm in Resources */ = {isa = PBXBuildFile; fileRef = 52BB109B0A21A183006393C2 /* Recording.pm */; };
+		52BB10A20A21A183006393C2 /* Inspector.pm in Resources */ = {isa = PBXBuildFile; fileRef = 52BB109C0A21A183006393C2 /* Inspector.pm */; };
+		52BB10A50A21A18B006393C2 /* CommandLineController.pm in Resources */ = {isa = PBXBuildFile; fileRef = 52BB10A30A21A18B006393C2 /* CommandLineController.pm */; };
+		52BB10A60A21A18B006393C2 /* Frame.pm in Resources */ = {isa = PBXBuildFile; fileRef = 52BB10A40A21A18B006393C2 /* Frame.pm */; };
+		52D61FC308838323009CEBE6 /* bob.icns in Resources */ = {isa = PBXBuildFile; fileRef = 52D61FC208838323009CEBE6 /* bob.icns */; };
+		52F72D620A45388D002822E5 /* TTPrefs.pm in Resources */ = {isa = PBXBuildFile; fileRef = 52F72D610A45388D002822E5 /* TTPrefs.pm */; };
+		52F730B90A469D50002822E5 /* Dialogs in Resources */ = {isa = PBXBuildFile; fileRef = 52BB107B0A21A143006393C2 /* Dialogs */; };
+		52FCC10A0A9412D800C67C51 /* IO in Resources */ = {isa = PBXBuildFile; fileRef = 52FCC1050A9412D700C67C51 /* IO */; };
+		52FCC10C0A9412E100C67C51 /* Expect.pm in Resources */ = {isa = PBXBuildFile; fileRef = 52FCC10B0A9412E100C67C51 /* Expect.pm */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		AA254AF505B66F05003DBAE8 /* main.pl in Resources */ = {isa = PBXBuildFile; fileRef = AA254AF405B66F05003DBAE8 /* main.pl */; };
+		AA254AFF05B66F45003DBAE8 /* CamelBones.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AA254AFE05B66F45003DBAE8 /* CamelBones.framework */; };
+		AAE6CE93084467C9002E67C8 /* CamelBones.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA254AFE05B66F45003DBAE8 /* CamelBones.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AAE6CE2008446281002E67C8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA254AFF05B66F45003DBAE8 /* CamelBones.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5204934B0A957B85000EEBB1 /* auto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = auto; sourceTree = "<group>"; };
+		522C4D2608976083009630E6 /* Net */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Net; sourceTree = "<group>"; };
+		524374D408931D92006AAA88 /* DNS.pm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = DNS.pm; sourceTree = "<group>"; };
+		524374D508931D92006AAA88 /* Rendezvous.pm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = Rendezvous.pm; sourceTree = "<group>"; };
+		524374D908931E2D006AAA88 /* AppConfig */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppConfig; sourceTree = "<group>"; };
+		524374E108931E2D006AAA88 /* AppConfig.pm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = AppConfig.pm; sourceTree = "<group>"; };
+		526063450A5A634D00DF940D /* daemon.pl */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = daemon.pl; sourceTree = "<group>"; };
+		526063DD0A5A6C1700DF940D /* light-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-off.png"; sourceTree = "<group>"; };
+		526063DE0A5A6C1700DF940D /* light-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-on.png"; sourceTree = "<group>"; };
+		5284B08D0A303A54007199C8 /* go-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "go-down.png"; sourceTree = "<group>"; };
+		52BB107B0A21A143006393C2 /* Dialogs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Dialogs; sourceTree = "<group>"; };
+		52BB108B0A21A173006393C2 /* ico2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico2.png; sourceTree = "<group>"; };
+		52BB108C0A21A173006393C2 /* ico5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico5.png; sourceTree = "<group>"; };
+		52BB108D0A21A173006393C2 /* ico4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico4.png; sourceTree = "<group>"; };
+		52BB108E0A21A173006393C2 /* ico3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico3.png; sourceTree = "<group>"; };
+		52BB108F0A21A173006393C2 /* ico0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico0.png; sourceTree = "<group>"; };
+		52BB10900A21A173006393C2 /* ico1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico1.png; sourceTree = "<group>"; };
+		52BB10970A21A183006393C2 /* TTConfig.pm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = TTConfig.pm; sourceTree = "<group>"; };
+		52BB10980A21A183006393C2 /* RefreshController.pm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = RefreshController.pm; sourceTree = "<group>"; };
+		52BB10990A21A183006393C2 /* TivoUnit.pm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = TivoUnit.pm; sourceTree = "<group>"; };
+		52BB109A0A21A183006393C2 /* TTListCtrl.pm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = TTListCtrl.pm; sourceTree = "<group>"; };
+		52BB109B0A21A183006393C2 /* Recording.pm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = Recording.pm; sourceTree = "<group>"; };
+		52BB109C0A21A183006393C2 /* Inspector.pm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = Inspector.pm; sourceTree = "<group>"; };
+		52BB10A30A21A18B006393C2 /* CommandLineController.pm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = CommandLineController.pm; sourceTree = "<group>"; };
+		52BB10A40A21A18B006393C2 /* Frame.pm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = Frame.pm; sourceTree = "<group>"; };
+		52D61FC208838323009CEBE6 /* bob.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = bob.icns; sourceTree = "<group>"; };
+		52F72D610A45388D002822E5 /* TTPrefs.pm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.perl; path = TTPrefs.pm; sourceTree = "<group>"; };
+		52FCC1050A9412D700C67C51 /* IO */ = {isa = PBXFileReference; lastKnownFileType = folder; path = IO; sourceTree = "<group>"; };
+		52FCC10B0A9412E100C67C51 /* Expect.pm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = Expect.pm; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TivoTool.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TivoTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA254AF405B66F05003DBAE8 /* main.pl */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = main.pl; sourceTree = "<group>"; };
+		AA254AFE05B66F45003DBAE8 /* CamelBones.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CamelBones.framework; path = /Developer/CamelBones/Frameworks/CamelBones.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE6CE93084467C9002E67C8 /* CamelBones.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA254AFE05B66F45003DBAE8 /* CamelBones.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TivoTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TivoTool */ = {
+			isa = PBXGroup;
+			children = (
+				52BB10B40A21A27C006393C2 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TivoTool;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				526063DD0A5A6C1700DF940D /* light-off.png */,
+				526063DE0A5A6C1700DF940D /* light-on.png */,
+				5284B08D0A303A54007199C8 /* go-down.png */,
+				52BB108B0A21A173006393C2 /* ico2.png */,
+				52BB108C0A21A173006393C2 /* ico5.png */,
+				52BB108D0A21A173006393C2 /* ico4.png */,
+				52BB108E0A21A173006393C2 /* ico3.png */,
+				52BB108F0A21A173006393C2 /* ico0.png */,
+				52BB10900A21A173006393C2 /* ico1.png */,
+				52D61FC208838323009CEBE6 /* bob.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52BB10B40A21A27C006393C2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				524374D908931E2D006AAA88 /* AppConfig */,
+				5204934B0A957B85000EEBB1 /* auto */,
+				52BB107B0A21A143006393C2 /* Dialogs */,
+				52FCC1050A9412D700C67C51 /* IO */,
+				522C4D2608976083009630E6 /* Net */,
+				524374E108931E2D006AAA88 /* AppConfig.pm */,
+				52BB10A30A21A18B006393C2 /* CommandLineController.pm */,
+				526063450A5A634D00DF940D /* daemon.pl */,
+				524374D408931D92006AAA88 /* DNS.pm */,
+				52FCC10B0A9412E100C67C51 /* Expect.pm */,
+				52BB10A40A21A18B006393C2 /* Frame.pm */,
+				52BB109C0A21A183006393C2 /* Inspector.pm */,
+				AA254AF405B66F05003DBAE8 /* main.pl */,
+				52BB109B0A21A183006393C2 /* Recording.pm */,
+				52BB10980A21A183006393C2 /* RefreshController.pm */,
+				524374D508931D92006AAA88 /* Rendezvous.pm */,
+				52BB10990A21A183006393C2 /* TivoUnit.pm */,
+				52BB10970A21A183006393C2 /* TTConfig.pm */,
+				52F72D610A45388D002822E5 /* TTPrefs.pm */,
+				52BB109A0A21A183006393C2 /* TTListCtrl.pm */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D1107270486CEB800E47090 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TivoTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520E02D6087D355B00A8B652 /* Build configuration list for PBXNativeTarget "TivoTool" */;
+			buildPhases = (
+				8D1107270486CEB800E47090 /* Headers */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				AAE6CE2008446281002E67C8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TivoTool;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TivoTool;
+			productReference = 8D1107320486CEB800E47090 /* TivoTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 520E02DA087D355B00A8B652 /* Build configuration list for PBXProject "TivoTool" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TivoTool */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TivoTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				AA254AF505B66F05003DBAE8 /* main.pl in Resources */,
+				52D61FC308838323009CEBE6 /* bob.icns in Resources */,
+				524374D708931D92006AAA88 /* DNS.pm in Resources */,
+				524374D808931D92006AAA88 /* Rendezvous.pm in Resources */,
+				524374E208931E2D006AAA88 /* AppConfig in Resources */,
+				524374E308931E2D006AAA88 /* AppConfig.pm in Resources */,
+				522C4D6308976083009630E6 /* Net in Resources */,
+				52BB10910A21A173006393C2 /* ico2.png in Resources */,
+				52BB10920A21A173006393C2 /* ico5.png in Resources */,
+				52BB10930A21A173006393C2 /* ico4.png in Resources */,
+				52BB10940A21A173006393C2 /* ico3.png in Resources */,
+				52BB10950A21A173006393C2 /* ico0.png in Resources */,
+				52BB10960A21A173006393C2 /* ico1.png in Resources */,
+				52BB109D0A21A183006393C2 /* TTConfig.pm in Resources */,
+				52BB109E0A21A183006393C2 /* RefreshController.pm in Resources */,
+				52BB109F0A21A183006393C2 /* TivoUnit.pm in Resources */,
+				52BB10A00A21A183006393C2 /* TTListCtrl.pm in Resources */,
+				52BB10A10A21A183006393C2 /* Recording.pm in Resources */,
+				52BB10A20A21A183006393C2 /* Inspector.pm in Resources */,
+				52BB10A50A21A18B006393C2 /* CommandLineController.pm in Resources */,
+				52BB10A60A21A18B006393C2 /* Frame.pm in Resources */,
+				5284B08E0A303A54007199C8 /* go-down.png in Resources */,
+				52F72D620A45388D002822E5 /* TTPrefs.pm in Resources */,
+				52F730B90A469D50002822E5 /* Dialogs in Resources */,
+				526063460A5A634D00DF940D /* daemon.pl in Resources */,
+				526063DF0A5A6C1700DF940D /* light-off.png in Resources */,
+				526063E00A5A6C1700DF940D /* light-on.png in Resources */,
+				52FCC10A0A9412D800C67C51 /* IO in Resources */,
+				52FCC10C0A9412E100C67C51 /* Expect.pm in Resources */,
+				520493530A957B85000EEBB1 /* auto in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520E02D7087D355B00A8B652 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_DEVELOPER_DIR)/CamelBones/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = TivoTool;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		520E02D8087D355B00A8B652 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_DEVELOPER_DIR)/CamelBones/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = TivoTool;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		520E02D9087D355B00A8B652 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_DEVELOPER_DIR)/CamelBones/Frameworks";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = TivoTool;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		520E02DB087D355B00A8B652 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		520E02DC087D355B00A8B652 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		520E02DD087D355B00A8B652 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520E02D6087D355B00A8B652 /* Build configuration list for PBXNativeTarget "TivoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520E02D7087D355B00A8B652 /* Deployment */,
+				520E02D8087D355B00A8B652 /* Development */,
+				520E02D9087D355B00A8B652 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		520E02DA087D355B00A8B652 /* Build configuration list for PBXProject "TivoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520E02DB087D355B00A8B652 /* Deployment */,
+				520E02DC087D355B00A8B652 /* Development */,
+				520E02DD087D355B00A8B652 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
