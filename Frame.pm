@@ -558,7 +558,7 @@ main::TTDebug("Placing window x and y: ".$c->windowx()." ".$c->windowy());
 
 my $self = $ref->SUPER::new( undef,         # parent window - none in this case, it is the main frame
 							 -1,            # wx ID number
-							 "TivoTool - Version $main::version",	# title
+							 "TivoTool - SVN BRANCH",	# title
 							 [$c->windowx(), $c->windowy()],      # default position
 							 [$c->windoww(), $c->windowh()],      # default size
 							 wxDEFAULT_FRAME_STYLE, # styles
