@@ -91,7 +91,7 @@
 		52FCC1050A9412D700C67C51 /* IO */ = {isa = PBXFileReference; lastKnownFileType = folder; path = IO; sourceTree = "<group>"; };
 		52FCC10B0A9412E100C67C51 /* Expect.pm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = Expect.pm; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* TivoTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TivoTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* TivoTool.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TivoTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA254AF405B66F05003DBAE8 /* main.pl */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.perl; path = main.pl; sourceTree = "<group>"; };
 		AA254AFE05B66F45003DBAE8 /* CamelBones.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CamelBones.framework; path = /Developer/CamelBones/Frameworks/CamelBones.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
