@@ -19,13 +19,14 @@ sub new
 {
 	my $class = shift;
 	my $self = {};
-		
 	bless($self, $class);
 	return $self;
 }
 
 
-### Run a shell command on this tivo ###
+#######################################################
+# Run a shell command on this tivo
+#######################################################
 sub DoTelnet 
 {
 	my $command = shift;
@@ -34,24 +35,25 @@ sub DoTelnet
 	$host = $c->tivoip();
 	
 	# If host is up
-	#if (IsUp()=="1") 
-	#{
-		my $t = new Net::Telnet ( Errmode => "return",);
+	my $t = new Net::Telnet ( Errmode => "return",);
+
+	# Try to telnet in
+	$t->open("$host");
+	my $success = $t->cmd("/bin/touch"); # Sanity check
 	
-		# Try to telnet in
-		$t->open("$host");
-		my $success = $t->cmd("/bin/touch"); # Sanity check
-		
-		# If working, run and return command
-		if ($success) 
-		{
-			@results = $t->cmd( String => "$command", Prompt => '/bash-2.02#/');
-		}
-	#} 
+	# If working, run and return command results
+	if ($success) 
+	{
+		@results = $t->cmd( String => "$command", Prompt => '/bash-2.02#/');
+	}
 	
 	return @results;
 }
 
+
+#######################################################
+# Scan subnet for vserver (port 8074) using Net::Ping
+#######################################################
 sub ScanSubnet
 {
 	my $self = shift;
@@ -106,7 +108,9 @@ sub ScanSubnet
 	return $serving[0];
 }
 
-### Check if vserver is up ###
+#######################################################
+# Check if vserver is up
+#######################################################
 sub IsVserverUp 
 {
 	my $self = shift;
@@ -117,7 +121,7 @@ sub IsVserverUp
 	                                  PeerAddr => "$host",
 	                                  PeerPort => '8074',
 	                                  Proto => 'tcp',
-	                                  Timeout => '4',
+	                                  Timeout => '3',
 	                                 );                                 
 
 	if ($sock) # We are able to connect to port 8074, vserver is up
@@ -132,6 +136,9 @@ sub IsVserverUp
 	
 }
 
+#######################################################
+# Delete recordings using RubbishObjectByFsId
+#######################################################
 sub Delete
 {
 	my ($self, $fsid) = @_;
@@ -146,7 +153,9 @@ sub Delete
 	return 0;
 }
 
-### Check if Tivo is pingable ###
+#######################################################
+# Check if Tivo is pingable
+#######################################################
 sub IsUp 
 {
 	my $self = shift;
@@ -169,7 +178,9 @@ sub IsUp
 }
 
 
-### Discover Series2 SA Tivos using Bonjour ###
+#######################################################
+# Discover Series2 SA Tivos using Bonjour
+#######################################################
 sub Discover 
 {
 	my @ips = ();
@@ -183,5 +194,28 @@ sub Discover
 	}
 	return @ips;
 }
+
+
+#######################################################
+# Start and Stop Vserver
+#######################################################
+sub StartVserver 
+{
+	my $host = $c->tivoip();
+	my $loc =  $c->vserverpath();
+	my @results = DoTelnet("echo \"$loc &\" > /var/tmp/tmpscript && /bin/bash /var/tmp/tmpscript && sleep 2");
+	main::TTDebug("Remote vserver start:", @results);
+	return @results;
+}
+
+sub StopVserver 
+{
+	my $host = $c->tivoip();
+	my $bb = $c->bbpath();
+	my @results = DoTelnet("$bb killall vserver");
+	main::TTDebug("Remote vserver stop:", @results);
+	return "Vserver Stopped";
+}
+
 
 1;
