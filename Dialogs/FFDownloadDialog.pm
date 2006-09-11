@@ -128,7 +128,7 @@ sub OnIdle
 		/^frame=\s*(\d+) q=\s*(\d+\.\d) size=\s*(\d+)kB time=(\d+\.\d) bitrate=\s*(\d+\.\d)kbits\/s.*/;
 		next unless ($3); # this isn't status line
 		
-		main::TTDebug("$_");
+		#main::TTDebug("$_");
 		
 		# Parse values for display
 		my $percent = (($max/$4)*$3)/1024 if ($4>0);
@@ -167,23 +167,29 @@ sub MoveToItunes
 	
 	local $/ = "\n";
 
-	# iTunes library detection
-	my $home = $ENV{'HOME'};
-	# say hello to my xml parser
-	my $it = `head -n 25 '$home/Music/iTunes/iTunes\ Music\ Library.xml' |grep 'Music\ Folder'`;
-	$it =~ s|<key>Music Folder</key><string>file://localhost||;
-	$it =~ s|</string>||;
-	$it =~ s|%20| |g;
-	$it =~ s|^\s*||;
-	chomp $it;
-		
+	my $lib_applescript = qq|
+		tell application "iTunes"
+		  tell library playlist 1
+			tell file track 1
+			  location as string
+			end tell
+		  end tell
+		end tell
+	|;
+
+	my $itdetect = `/usr/bin/osascript -e \'$lib_applescript\'`;
+
+	$itdetect =~ s/:/\//g;
+	$itdetect =~ m/(\/.*iTunes\sMusic)/;
+	
+	my $it = $1;
+
 	main::TTDebug("Detected library location: ".$it);
 	
 	###################################
 	# VERIFY ITUNES LIBRARY LOCATION
 	###################################
-	my $itunes_lib = $it."Unknown\ Artist/Unknown\ Album";
-	chomp $itunes_lib;
+	my $itunes_lib = $it."/Unknown\ Artist/Unknown\ Album";
 	
 	## Create the folder inside the iTunes lib if it doesnt exist.
 	unless (-d "$itunes_lib") 
@@ -215,8 +221,6 @@ sub MoveToItunes
 	############################
 	# APPLESCRIPT
 	############################
-	my $script_loc = "$home/Library/Caches/ttas.scpt";
-	open (APPLESCRIPT,"> $script_loc") or $self->SetStatusText("cant write to ~/Library/Caches ??");
 	my $myfile = "$itunes_lib/".$rec->filename().".".$rec->saveformat();
 	my $the_applescript = qq|
 		set posixFile to "$myfile"
@@ -231,11 +235,9 @@ sub MoveToItunes
 			add hfsFile to playlist tt_playlist
 		end tell				
 	|;
-	print APPLESCRIPT $the_applescript;
-	close APPLESCRIPT;
-	
+
 	main::TTDebug("Running this applescript:",$the_applescript);
-	my $result = `/usr/bin/osascript $script_loc`;	
+	my $result = `/usr/bin/osascript -e \'$the_applescript\'`;	
 	main::TTDebug("Result of applescript run:",$result);
 }
 
