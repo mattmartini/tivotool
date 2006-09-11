@@ -29,6 +29,10 @@ mkdir("$home/.tivotool", 0755) unless (-d "$home/.tivotool");
 system('mkfifo', "$home/.tivotool/tydemux") unless (-e "$home/.tivotool/tydemux");
 system('mkfifo', "$home/.tivotool/streamty") unless (-e "$home/.tivotool/streamty");
 
+# Tivoserver cfg needs to be there too
+mkdir("$home/.tivoserver", 0755) unless (-d "$home/.tivoserver");
+system('touch', "$home/.tivoserver/settings.cfg") unless (-e "$home/.tivoserver/settings.cfg");
+
 # Start TivoTool
 my $app = TTApp->new();
 $app->MainLoop;
