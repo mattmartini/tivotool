@@ -31,7 +31,7 @@ our $cur = 0;
 our @recs;
 
 # This is for wxwidgets "special" ID system. 
-($ID_SHOW_TIVOSERVER,$ID_SHOW_LOG,$ID_QUIT,$ID_REFRESH,$ID_LIST,$ID_DOWNLOAD,$ID_FIT,$ID_INFO,$ID_WATCH,$ID_TOOL_TOGGLE,$ID_TOOL_DELETE,$ID_TOOL_REFRESH,$ID_TOOL_WATCH,$ID_TOOL_DOWNLOAD,$ID_TOOL_PREFS) = (1..1000);
+($ID_VSTART, $ID_VSTOP, $ID_SHOW_TIVOSERVER,$ID_SHOW_LOG,$ID_QUIT,$ID_REFRESH,$ID_LIST,$ID_DOWNLOAD,$ID_FIT,$ID_INFO,$ID_WATCH,$ID_TOOL_TOGGLE,$ID_TOOL_DELETE,$ID_TOOL_REFRESH,$ID_TOOL_WATCH,$ID_TOOL_DOWNLOAD,$ID_TOOL_PREFS) = (1..1000);
 
 sub get_local_ips
 {
@@ -63,7 +63,7 @@ sub OnIdle
 				
 		if ($c->tivoip eq '0.0.0.0')
 		{
-			$self->{vserverlabel}->SetLabel("Looking on local network...");
+			$self->{vservertext}->SetLabel("Looking on local network...");
 			Wx::SafeYield;
 			
 			my $detected = $t->ScanSubnet(get_local_ips());
@@ -107,6 +107,42 @@ sub OnIdle
 		
 }
 
+
+############################ START/STOP VSERVER #####################################
+sub OnStartVserver 
+{
+	$self = shift;
+	
+	my @r = $t->StartVserver();
+	
+	foreach (@r) 
+	{ 
+		if (/listen failed/) # already running
+		{ 
+			$self->{vservertext}->SetLabel("Vserver Started");
+		} 
+		elsif (/waiting for connections/) # success
+		{
+			$self->{vservertext}->SetLabel("Vserver Started");
+		} 
+		elsif (/Could not connect/) 
+		{
+			$self->{vservertext}->SetLabel("Could Not Connect to ".$c->TIVOIP);
+		} 
+		elsif (/No such file or directory/) 
+		{
+			$self->{vservertext}->SetLabel("Could not find vserver at ".$c->VSERVERPATH);
+		}
+	}
+}
+
+sub OnStopVserver 
+{
+	my $self = shift;
+	$self->{vservertext}->SetLabel($t->StopVserver());
+}
+
+
 ############################ DELETE EVENT #####################################
 sub OnClickDelete
 {
@@ -135,7 +171,7 @@ sub OnClickDelete
 	}
 	
 	Wx::SafeYield;
-	sleep 2;
+	sleep 1;
 	$self->OnClickRefresh() if $do_refresh;
 }
 
@@ -395,18 +431,18 @@ sub Pulse
 {
 	my $self = shift;
 	
-	$self->{vserverlabel}->SetLabel("Checking Tivo...");
+	$self->{vservertext}->SetLabel("Checking Tivo...");
 	Wx::SafeYield;
 
 	my $check = $t->IsVserverUp();	
 
 	if ($check==1)
 	{
-		$self->{vserverlabel}->SetLabel("Vserver Running at ".$c->tivoip.".");
+		$self->{vservertext}->SetLabel("Vserver Running");
 	}
 	elsif ($check==0) 
 	{
-		$self->{vserverlabel}->SetLabel("Vserver not found at ".$c->tivoip.".");
+		$self->{vservertext}->SetLabel("Vserver not found at ".$c->tivoip.".");
 	}
 	
 	return $check;
@@ -607,8 +643,8 @@ $boxgrid_b->AddGrowableCol(0);
 $boxgrid_b->AddGrowableCol(1);	
 $boxgrid_b->Add($self->{infotext} = Wx::StaticText->new($panel, -1, ""), 0, wxALIGN_LEFT|wxGROW|wxLEFT|wxRIGHT|wxTOP, 6);
 $self->{infotext}->SetFont($lucida);
-$boxgrid_b->Add($self->{vserverlabel} = Wx::StaticText->new($panel, -1, ""), 0, wxALIGN_CENTER|wxGROW|wxLEFT|wxRIGHT|wxTOP, 6);
-$self->{vserverlabel}->SetFont($lucida);	
+$boxgrid_b->Add($self->{vservertext} = Wx::StaticText->new($panel, -1, ""), 0, wxALIGN_CENTER|wxGROW|wxLEFT|wxRIGHT|wxTOP, 6);
+$self->{vservertext}->SetFont($lucida);	
 $boxgrid_b->Add( $self->{formatchooser} = Wx::Choice->new($panel, -1, [-1,-1], [-1,-1], ["Tivo Format (.ty)", "Tivo Media Format (.tmf)", "MPEG2 (.mpg)", "DVD Format (.vob)", "MPEG2 alternate (.mpg)", "DVD Format alternate (.vob)", "Unmuxed (.m2v .m2a)", "Unmuxed (.m2v .wav)", "DivX/MP3 (.avi)","MPEG4/AAC (.mp4)"]), 0, wxALIGN_RIGHT|wxLEFT|wxRIGHT|wxBOTTOM, 6);
 $self->{formatchooser}->SetSelection($c->dlmode());
 $staticboxsizer->Add($boxgrid_b, 0, wxGROW|wxALIGN_CENTER, 0);	
@@ -627,24 +663,28 @@ $panel_sizer->SetSizeHints($panel);
 # Menu Bar
 my $file_menu = Wx::Menu->new();
 my $view_menu = Wx::Menu->new();
+my $remote_menu = Wx::Menu->new();
 my $tools_menu = Wx::Menu->new();
 my $help_menu = Wx::Menu->new();
 
+$help_menu->Append(wxID_ABOUT, "About", "About");
 $file_menu->Append(wxID_PREFERENCES, "Preferences...\tCtrl-,", "Preferences...");
 $file_menu->Append(wxID_EXIT, "E&xit\tCtrl-X", "Exit $0");
-$help_menu->Append(wxID_ABOUT, "About", "About");
 $file_menu->Append($ID_REFRESH, "&Refresh Listings\tCtrl-R","Refresh Listings from your Tivo");
 $file_menu->Append($ID_DOWNLOAD,"&Save Selection(s)\tCtrl-S","Save Selection(s)");
 $file_menu->Append($ID_WATCH,"Watch &Now\tCtrl-N","Watch Selection(s)");
 $view_menu->Append($ID_FIT,"&Autofit Columns\tCtrl-A","Autofit Columns");
 $view_menu->Append($ID_INFO,"&Info\tCtrl-I","Info");
 $view_menu->Append($ID_TOOL_TOGGLE,"&Toggle Toolbar\tCtrl-T","Toggle Toolbar");
+$remote_menu->Append($ID_VSTART,"Start vserver","Start vserver");
+$remote_menu->Append($ID_VSTOP,"Stop vserver","Stop vserver");
 $tools_menu->Append($ID_SHOW_TIVOSERVER,"TivoServer\tCtrl-1","TivoServer");
 $tools_menu->Append($ID_SHOW_LOG,"Log\tCtrl-2","Log");
 
 my $menubar = Wx::MenuBar->new();
 $menubar->Append($file_menu, '&File');
 $menubar->Append($view_menu, '&View');
+$menubar->Append($remote_menu, '&Remote');
 $menubar->Append($tools_menu, '&Tools');
 $menubar->Append($help_menu, '&Help');
 $self->SetMenuBar($menubar);
@@ -670,6 +710,10 @@ EVT_MENU($self, $ID_FIT, \&FitColumns);
 EVT_MENU($self, wxID_ABOUT, \&OnAbout);
 EVT_MENU($self, wxID_EXIT, \&OnClose );
 EVT_MENU($self, $ID_TOOL_TOGGLE, \&OnToggleToolbar);
+
+EVT_MENU($self, $ID_VSTART, \&OnStartVserver);
+EVT_MENU($self, $ID_VSTOP, \&OnStopVserver);
+
 EVT_IDLE($self, \&OnIdle);
 EVT_CLOSE($self, \&OnClose);
 
