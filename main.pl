@@ -11,7 +11,7 @@ use Frame;
 package main;
 
 # Startup functions - things related to environment 
-our $version = "0.6.0";
+our $version = "0.6.1";
 our $home = $ENV{'HOME'};
 our $logfile = $home."/Library/Logs/tivotool.log";
 our $debug = 1;
@@ -28,6 +28,10 @@ open(STDERR, ">&STDOUT") or die "Can't dup stdout: $!";
 mkdir("$home/.tivotool", 0755) unless (-d "$home/.tivotool");
 system('mkfifo', "$home/.tivotool/tydemux") unless (-e "$home/.tivotool/tydemux");
 system('mkfifo', "$home/.tivotool/streamty") unless (-e "$home/.tivotool/streamty");
+
+# Tivoserver cfg needs to be there too
+mkdir("$home/.tivoserver", 0755) unless (-d "$home/.tivoserver");
+system('touch', "$home/.tivoserver/settings.cfg") unless (-e "$home/.tivoserver/settings.cfg");
 
 # Start TivoTool
 my $app = TTApp->new();

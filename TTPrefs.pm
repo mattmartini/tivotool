@@ -181,7 +181,9 @@ sub ClosePrefs
 	$c->set(RESIZE_W, $self->{wresize}->GetValue());
 	$c->set(RESIZE_H, $self->{hresize}->GetValue());
 	$c->set(STREAM_ASPECT, $self->{stream_aspect}->GetSelection());
-	
+	$c->set(BBPATH, $self->{bbpath}->GetValue());
+	$c->set(VSERVERPATH, $self->{vserverpath}->GetValue());
+
 	# these won't return 0, so can't set right from control like above..
 	if ($self->{stream_deint}->GetValue() == 1)       {	$c->set(STREAM_DEINT, 1);		} else {	$c->set(STREAM_DEINT, 0); }	
 	if ($self->{stream_denoise}->GetValue() == 1)     {	$c->set(STREAM_DENOISE, 1);		} else {	$c->set(STREAM_DENOISE, 0); }
@@ -264,11 +266,11 @@ sub new
 
 	$remote_sizer->AddGrowableCol( 0 );
 			
-	# Tivo Address
+	# ADDRESS
 	my( $sboxg ) = Wx::StaticBox->new( $pageGeneral, -1, "Tivo Address", wxDefaultPosition, [-1,-1] );				
 	my( $boxsizer_address ) = Wx::StaticBoxSizer->new( $sboxg, wxVERTICAL );
 
-	my $textintro = Wx::StaticText->new( $pageGeneral, -1, "Enter the IP address of a Tivo running vserver.", wxDefaultPosition, [-1,-1], 0 );
+	my $textintro = Wx::StaticText->new( $pageGeneral, -1, "", wxDefaultPosition, [-1,-1], 0 );
 	$self->{textintro} = $textintro;
 	$self->{textintro}->SetFont($boldfont);
 
@@ -288,7 +290,7 @@ sub new
 
 	$remote_sizer->Add( $boxsizer_address, 0, wxALIGN_CENTER_HORIZONTAL|wxBOTTOM|wxLEFT|wxRIGHT|wxGROW, 5 );
 
-	# Save location 
+	# SAVE 
 	my( $sbox ) = Wx::StaticBox->new( $pageGeneral, -1, "Save Location", wxDefaultPosition, [-1,-1] );	
 	$self->{sbox} = $sbox;			
 	my $locsizer = Wx::StaticBoxSizer->new( $sbox, wxHORIZONTAL );
@@ -305,6 +307,29 @@ sub new
 
 	$remote_sizer->Add( $locsizer, 0, wxALIGN_CENTER_HORIZONTAL|wxALL|wxGROW, 5 );
 
+
+	# BUSYBOX
+	my $macrobox3 = Wx::StaticBox->new( $pageGeneral, -1, "Tivo Paths (for remote vserver start/stop)", wxDefaultPosition, [-1,-1] );				
+	my $boxsizer_path_2  = Wx::StaticBoxSizer->new( $macrobox3, wxVERTICAL );
+
+	my $bbtext = Wx::StaticText->new( $pageGeneral, -1, "Location of Busybox", wxDefaultPosition, wxDefaultSize, 0 );
+	$boxsizer_path_2->AddWindow( $bbtext, 0, wxALIGN_CENTER|wxALL|wxGROW, 5 );
+	$bbtext->SetFont($mediumfont);
+
+	$self->{bbpath} = Wx::TextCtrl->new( $pageGeneral, -1, "", wxDefaultPosition, [-1, -1]);
+	$boxsizer_path_2->AddWindow( $self->{bbpath}, 0, wxALIGN_CENTER|wxALL|wxGROW, 5 );
+
+	my $vstext = Wx::StaticText->new( $pageGeneral, -1, "Location of vserver", wxDefaultPosition, wxDefaultSize, 0 );
+	$boxsizer_path_2->AddWindow( $vstext, 0, wxALIGN_CENTER|wxALL|wxGROW, 5 );
+	$vstext->SetFont($mediumfont);
+
+	$self->{vserverpath} = Wx::TextCtrl->new( $pageGeneral, -1, "", wxDefaultPosition, [-1, -1]);
+	$boxsizer_path_2->AddWindow( $self->{vserverpath}, 0, wxALIGN_CENTER|wxALL|wxGROW, 5 );
+
+	$remote_sizer->Add( $boxsizer_path_2, 0, wxALIGN_CENTER_HORIZONTAL|wxALL|wxGROW, 5 );
+	
+	
+	# OTHER
 	my $sbox2 = Wx::StaticBox->new( $pageGeneral, -1, "Other", wxDefaultPosition, [-1,-1] );	
 	my $locsizer2 = Wx::StaticBoxSizer->new( $sbox2, wxVERTICAL );
 
@@ -589,7 +614,8 @@ sub new
 	$self->{chooser_ampm}->SetSelection($c->AUTO_AMPM);
 	$self->{outtext}->SetLabel($c->OUTPUTDIR);
 	$self->{refresh_on_startup}->SetValue($c->REFRESHSTARTUP);	
-	
+	$self->{bbpath}->SetValue($c->BBPATH);
+	$self->{vserverpath}->SetValue($c->VSERVERPATH);
 	
 	#  EVENTS
     EVT_BUTTON( $self, $self->{reset_seen}, \&OnResetSeen );
