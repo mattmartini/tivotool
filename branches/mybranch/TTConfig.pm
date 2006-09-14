@@ -75,6 +75,8 @@ $config->define(
 	'SCHED_HOUR' => { DEFAULT => '0' }, # 0-23
 	'SCHED_MINUTE' => { DEFAULT => '0' }, # 0-59
 	'TOOLBAR' => { DEFAULT => '0' }, # show/hide toolbar
+	'BBPATH' => { DEFAULT => '/var/hacks/bin/busybox' }, # location, on the tivo, of busybox
+	'VSERVERPATH' => { DEFAULT => '/var/hacks/bin/vserver' }, # ditto vserver
 );  
 
 # Do one refresh on startup...
