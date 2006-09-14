@@ -214,7 +214,7 @@ sub StopVserver
 	my $bb = $c->bbpath();
 	my @results = DoTelnet("$bb killall vserver");
 	main::TTDebug("Remote vserver stop:", @results);
-	return "Vserver Stopped";
+	return $results[0];
 }
 
 
