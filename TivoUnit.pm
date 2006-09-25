@@ -187,7 +187,7 @@ sub Discover
 	my $res = Net::Rendezvous->new('tivo_videos');
 	$res->discover;
 	Wx::SafeYield();
-	foreach my $entry ( $res->entries) 
+	foreach my $entry ($res->entries) 
 	{
 		my $i = $entry->address;
 	    push(@ips, $i);
