@@ -24,7 +24,7 @@ sub new
 	$usercontinue = 1;
 		
 	my $max = $rec->size(); # size of video in KB
-	my $show = $rec->show(); # name of show
+	my $show = $rec->show(); # name of show				
 	my $episode = $rec->episode(); # episode title
 	my $desc = $rec->description(); # episode description
 

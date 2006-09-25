@@ -208,11 +208,17 @@ sub MoveToItunes
 	############################
 	# META-DATA
 	############################
-	my $tagcmd = "\'/Library/Application\ Support/TivoTool/mp4tags\' -s \"".
-		$rec->episode()."\" -a \"".
-		$rec->show()."\" -c \"Recorded: ".
-		$rec->date().". Created with TivoTool. http://www.tivotool.com\" \'".
-		$itunes_lib."/".$rec->filename().".".$rec->saveformat()."\'";
+	my $tagcmd = "\'/Library/Application\ Support/TivoTool/AtomicParsley\' \'".
+		$itunes_lib."/".$rec->filename().".".$rec->saveformat()."\' ".
+		"--genre \"TV Shows\" --stik \"TV Show\" ".
+		"--title \"".$rec->episode()."\" --TVEpisode \"".$rec->episode()."\" ".
+		"--TVShowName \"".$rec->show()."\" --artist \"".$rec->show()."\" --albumArtist \"".$rec->show()."\" ".
+		"--comment \"Recorded: ".$rec->date().". Created with TivoTool. http://www.tivotool.com\" --overWrite";
+
+	#my $tagcmd = "\'/Library/Application\ Support/TivoTool/mp4tags\' -s \"".
+	#	$rec->episode()."\" -a \"".
+	#	$rec->show()."\" -c \"\" \'".
+	#	$itunes_lib."/".$rec->filename().".".$rec->saveformat()."\'";
 
 	main::TTDebug("Tagging with this command:", $tagcmd);
 
